@@ -15,7 +15,7 @@ jobs:
           pip install -r requirements.txt
           python train.py
           echo "MODEL METRICS"
-          cat metrix.txt
+          cat metrics.txt
       
           #cat metrics.txt >> report.md
           #echo "![](./plot.png)" >> report.md
